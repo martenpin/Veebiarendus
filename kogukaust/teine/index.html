@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tuvastamine</title>
+    <link rel="stylesheet" href="stiil.css">
+    <link rel="stylesheet" href="logistiil.css">
 </head>
+
 <body>
-
-
+<div class="conteiner"> 
     <h1>Logi sisse</h1>
-    <form action="" method="">
-        <input type="text"
+    <form action="http://localhost/autentimine" method="get">
+        <label  class="ruum-yleval" for="nimi">kasutaja nimi</label><br>
+        <input type="text" id="nimi" name="nimi" placeholder="nimi"><br>
+        <label  class="ruum-yleval" for="password">kasutaja parool</label><br>
+        <input type="password" id="parool" name="parool" placeholder="parool"><br>
+        <input class="ruum-yleval" type="submit" value="logi sisse">
     </form>
+</div>
 </body>
+
 </html>

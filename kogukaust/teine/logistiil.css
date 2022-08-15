@@ -1,0 +1,13 @@
+.conteiner {
+    background-color: deepskyblue;
+    width: 400px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.ruum-yleval {
+    margin-top: 100px;
+    display: inline-block;
+}
