@@ -5,25 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registreerimine</title>
-    <link href="regamislehtcss.css">
+    <link rel="stylesheet" href="regamislehtstiil.css">
+    <link rel="stylesheet" href="regamislehtkuju.css">
 </head>
 <body>
     <div class="kogukast"> 
-        <h2>Registreeri kasutaja</h2>
+        <h2 class="jogurt">Registreeri kasutaja</h2>
         <form action="https://suled/rets" method="get"></form>
-        <label for="nimi1">kasutaja nimi</label> <br>
-        <input type="text" id="nimi2" name="nimi1" placeholder="nimi"> <br>
-        <label for="valikud">Sugu</label>
-        <input type="button" id="valikud" name="sugu" > <br>
-        <label for="password">kasutaja parool</label> <br>
-        <input type="text" id="password" name="password1" placeholder="parool"> <br>
-        <label for="password3"></label>kasutaja parool, uuesti</label> <br>
-        <input type="text" id="password3" name="password2" placeholder="parool"> <br>
-        <label for="email">sisesta oma email</label> <br>
-        <input type="email" id="email" name="email" placeholder="email"> <br>
-        <label for="checkbox">Nõustun reeglitega</label>
-        <input type="checkbox" id="checkbox" name="kastike"> <br>
-        
+        <label for="nimi1">Kasutaja nimi</label> <br>
+        <input class="raamar" type="text" id="nimi2" name="nimi1" placeholder="nimi"> <br>
+        <label class="soobox1" for="valikud">Sugu</label>
+        <select class="soobox2" name="sugu" id="valikud">
+            <option value="tyhi"></option>
+            <option value="mees">Mees</option>
+            <option value="naine">Naine</option>
+        </select> <br>
+        <label class="vahe" for="password">Kasutaja parool</label> <br>
+        <input class="raamar" type="text" id="password" name="password1" placeholder="parool"> <br>
+        <label class="vahe" for="password3"></label>Kasutaja parool, uuesti</label> <br>
+        <input class="raamar" type="text" id="password3" name="password2" placeholder="parool"> <br>
+        <label class="vahe" for="email"></label>Sisesta oma email</label> <br>
+        <input class="raamar" type="email" id="email" name="email" placeholder="email"> <br>
+        <label class="vahe" for="checkbox">Nõustun reeglitega</label>
+        <input class="vahe" type="checkbox" id="checkbox" name="kastike">
 
 
 
