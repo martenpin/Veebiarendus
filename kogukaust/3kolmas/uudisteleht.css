@@ -1,0 +1,58 @@
+html {
+    font-size: 16px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+.konteiner {
+    width: 80%;
+    max-width: 9000px;
+    background-color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.uudis {
+    padding: 1rem;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: azure;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.uudis1 {
+    width: 450px;
+    height: 500px;
+    margin-right: 4rem;
+}
+
+.uudise1 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.uudise2 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+

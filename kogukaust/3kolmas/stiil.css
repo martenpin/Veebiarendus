@@ -1,6 +1,17 @@
+html {
+    font-size: 16px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
 body {
     background-color: lightgreen;
     font-family:'Roboto', sans-serif;
+    background-image: url('bridge-1920x1080.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 h1, h2 {
@@ -14,5 +25,22 @@ h1, h2 {
     margin-right: auto;
     padding: 20px;
     margin-top: 30px;
+}
+
+.uudis-autor, .uudis-kuupäev {
+    font-size: 0.8rem;
+    color:darkgreen;
+    font-weight: bold;
+    display: inline-block;
+    width: 49%;
+}
+
+.uudis-kuupäev {
+    font-style: italic;
+    text-align: right;   
+}
+
+.uudis-sisu {
+    font-size: 1.2rem;
 }
 
