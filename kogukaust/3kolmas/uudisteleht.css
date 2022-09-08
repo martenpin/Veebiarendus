@@ -34,15 +34,9 @@ div {
     margin-right: 1rem;
     margin-left: 1rem;
     background-color: azure;
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-}
-
-.uudis1 {
     width: 450px;
     height: 500px;
-    margin-right: 4rem;
+    display: inline-block;
 }
 
 .uudise1 {
