@@ -1,0 +1,79 @@
+header img {
+    width: 200px;
+}
+
+header {
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(226, 43, 128);
+    height: 50px;
+    justify-content: center;
+}
+
+nav > ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 150px;
+}
+
+nav a {
+    color: rgb(68, 68, 68);
+    padding-right: 10px;
+
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    background-color: lightgreen;
+    height: 600px;
+    width: 70%;
+
+}
+
+main aside {
+    height: 600px;
+    background-color: lightsalmon;
+    width: 30%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.piltblokk {
+    display:flex;
+}
+
+.piltblokk img {
+    width: 60%;
+    height: 40%;
+    min-width: 500px;
+    margin-right: 10px;
+}
+
+.piltblokk p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: 'justify';
+}
+
+.reklaam {
+    width: 100%;
+
+}
+
+main aside a {
+width: 80%;
+margin-top: 10px;
+margin-left: auto;
+margin-right:auto;
+}

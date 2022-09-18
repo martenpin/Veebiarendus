@@ -1,0 +1,15 @@
+header img {
+    width: 250px;
+}
+
+header h1 {
+    margin-left: 50px;
+    font 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightsteelblue;
+
+}
