@@ -1,15 +1,60 @@
+body {
+    background-color: lightcyan;
+}
+
 header img {
     width: 250px;
 }
 
 header h1 {
     margin-left: 50px;
-    font 
+font-family: Arial, sans-serif;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightsteelblue;
+    background-color: lightskyblue;
+    min-width: 1000px;
 
+}
+
+nav {
+    display:flex ;
+    align-items:center ;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+nav a {
+    padding-right: 15px;
+    color: black;
+}
+
+main section {
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.mainikas {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.mainikastekst {
+min-width: 600px;
+max-width: 400px;
+margin-left: 15px;
+}
+.mainikaspilt {
+    margin-top: 10px;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+main section img {
+    max-width: 100%;
+    border: 2px solid black;
 }
