@@ -31,27 +31,30 @@ nav a {
     color: black;
 }
 
-main section {
-    max-width: 70%;
+main {
     display: flex;
-    align-items: center;
-    justify-content:center ;
 }
 
-.mainikas {
+.mainikasblokk {
     display: flex;
     align-items: center;
-    justify-content:center ;
 }
+
+main section {
+    max-width: 70%;
+}
+
 .mainikastekst {
 min-width: 600px;
 max-width: 400px;
 margin-left: 15px;
 }
+
 .mainikaspilt {
     margin-top: 10px;
-    min-width: 500px;
-    max-width: 500px;
+    min-width: 300px;
+    max-width: 400px;
+    margin-right: 10px;
 }
 
 main section img {
@@ -59,6 +62,19 @@ main section img {
     border: 2px solid black;
 }
 
-.reklaam {
-    width: 100%;
+main aside {
+    display: flex;
+    width: 30%;
+    height: 700px;
 }
+
+.rekklaam {
+    width: 100px;
+}
+
+main aside a {
+margin-left: auto;
+margin-right: auto;
+}
+
+

@@ -40,16 +40,6 @@ main section {
 
 }
 
-main aside {
-    height: 600px;
-    background-color: lightsalmon;
-    width: 30%;
-    min-width: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .piltblokk {
     display:flex;
 }
@@ -64,6 +54,16 @@ main aside {
 .piltblokk p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: 'justify';
+}
+
+main aside {
+    height: 600px;
+    background-color: lightsalmon;
+    width: 30%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .reklaam {
