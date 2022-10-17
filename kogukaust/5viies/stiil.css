@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: blue;
+}
+
+.arvuti {
+    display: none;
+}
+@media screen and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+
+    .arvuti {
+        display: block;
+    }
+
+    .mobla {
+        display: none;
+    }
+    
+}
