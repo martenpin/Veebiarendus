@@ -9,12 +9,16 @@ h1 {
 .arvuti {
     display: none;
 }
+
+.tahvelarvuti {
+    display: none;
+}
 @media screen and (min-width: 600px) {
     body {
         background-color: red;
     }
 
-    .arvuti {
+    .tahvelarvuti {
         display: block;
     }
 
@@ -22,4 +26,18 @@ h1 {
         display: none;
     }
     
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    .arvuti {
+        display: block;
+    }
+
+    .tahvelarvuti {
+        display: none;
+    }
 }
