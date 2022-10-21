@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: aquamarine;
 }
@@ -6,13 +9,27 @@ h1 {
     color: blue;
 }
 
+
 .arvuti {
     display: none;
 }
 
 .tahvelarvuti {
     display: none;
-}
+} 
+.blokk {
+        width: 100%;
+    }
+
+    .blokk img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .konteiner {
+        display: flex;
+        flex-direction: column;
+    }
 @media screen and (min-width: 600px) {
     body {
         background-color: red;
@@ -25,7 +42,20 @@ h1 {
     .mobla {
         display: none;
     }
+
+    .konteiner {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+       
+    }
+
+    .blokk {
+        width: 50%;
+        padding-left: 5px;
+    }
     
+   
 }
 
 @media screen and (min-width: 1000px) {
@@ -39,5 +69,9 @@ h1 {
 
     .tahvelarvuti {
         display: none;
+    }
+
+    .blokk {
+        width: 33.33%;
     }
 }
