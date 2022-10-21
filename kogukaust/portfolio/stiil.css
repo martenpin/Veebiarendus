@@ -1,13 +1,57 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    height: 1500px;
+    background-color: aquamarine;
+    height: 2500px;
 }
 
-img {
-    max-width: 380px;
+
+
+.blokk {
+        width: 100%;
+        margin-right: 5px;
+        height: 550px;
+        margin-top: 5px;
+    }
+
+    .blokk img {
+        max-width: 100%;
+        object-fit: cover;
+        margin-top: 5px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+@media screen and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+       
+    }
+
+    .blokk {
+        max-width: 45%;
+        min-width: 245px;
+    }
     
+   
 }
 
-.card {
-    max-width: 380px;
- 
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    .blokk {
+
+        max-width: 30%;
+    }
 }
