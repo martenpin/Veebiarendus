@@ -1,0 +1,22 @@
+.opacityimg {
+   width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-image: url('./matkapildid/pexels-photo-1687845.jpeg');
+position: relative;
+isolation: isolate;
+   
+}
+
+.logo {
+width: 20rem;
+}
+
+.opacityimg::after {
+    content:'';
+position: absolute;
+inset: 0;
+background: pink;
+opacity: 30%;
+}
