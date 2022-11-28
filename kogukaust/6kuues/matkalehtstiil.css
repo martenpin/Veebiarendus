@@ -15,13 +15,18 @@
 .menyytaust {
     width: 100%;
     background-color: white;
+    align-items: center;
+    justify-content: center;
 }
 
     .menyyblokk {
         padding: 2rem;
+        margin-right: 7rem;
 
     }
 
     .menyytekst {
         color: black;
     }
+
+    
