@@ -1,0 +1,27 @@
+.taust {
+    background-image: url('matkapildid/pexels-photo-1687845.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+       
+    }
+    
+
+    .logo {
+    width: 20rem;
+    }
+    
+.menyytaust {
+    width: 100%;
+    background-color: white;
+}
+
+    .menyyblokk {
+        padding: 2rem;
+
+    }
+
+    .menyytekst {
+        color: black;
+    }
