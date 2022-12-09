@@ -12,7 +12,7 @@ if (kasutajanimi.length > 6) {
 }
 
 if (kasutajanimi.length <= 6) {
-    kasutajanimi = lyhikenimi + "<img src=./assets/4a1df021749a54fc2d50ad03c65e25ba.jpg><img>"
+    kasutajanimi = lyhikenimi + "<img src=./assets/4a1df021749a54fc2d50ad03c65e25ba.jpg width=200px><img>"
 }
 
 let nimeelement = document.getElementById("nimi")
