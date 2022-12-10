@@ -6,10 +6,10 @@ console.log(sisendtekst)
 
 function lisa() {
     let sisendtekst = document.getElementById("sisend").value
-    for (let index = 0; index < ; index++) {
+    for (let index = 0; index < sisendtekst; index++) {
         valjastatekst ( (index + 1) + ". " + sisendtekst)
-        
+       console.log(sisendtekst)
     }
-valjastatekst(sisendtekst)
+ valjastatekst(sisendtekst)
     
 }
