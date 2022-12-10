@@ -13,3 +13,4 @@ function lisa() {
  valjastatekst(sisendtekst)
     
 }
+
