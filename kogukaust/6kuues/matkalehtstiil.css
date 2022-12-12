@@ -212,3 +212,26 @@
         display: block;
     }
 }
+
+.kontaktInput {
+margin-left: 30%;
+margin-top: 10%;
+max-width: 50%;
+}
+
+.inputKast {
+    margin-bottom: 2rem;
+}
+
+.s6numkastdiv {
+    width: 20rem;
+    height: 20rem;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+.sisends6numkast{
+    height: 100%;
+    width: 100%;
+}

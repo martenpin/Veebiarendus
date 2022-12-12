@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matkaleht</title>
-    <link rel="stylesheet" href="matkallehtkontakt.html">
+    <link rel="stylesheet" href="matkalleht.html">
     <link rel="stylesheet" href="matkapildid/">
     <link rel="stylesheet" href="matkalehtstiil.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
                     <il class="menyyblokk ">
                         <div class="btnymbris">
                             <button class="btn">
-                                <a class="menyytekst" href="#">esileht</a>
+                                <a class="menyytekst" href="./matkalleht.html">esileht</a>
                             </button>
                         </div>
                     </il>
@@ -46,7 +46,7 @@
                     <il class="menyyblokk">
                         <div class="btnymbris">
                             <button class="btn">
-                                <a class="menyytekst" href="./matkallehtkontakt.html">Kontakt</a>
+                                <a class="menyytekst" href="#">Kontakt</a>
                             </button>
                         </div>
                     </il>
@@ -57,34 +57,21 @@
     </nav>
 
     <section>
-        <div class="colums">
-            <div class="rida4">
+        <div class="kontaktInput">
+        <div class="row">
+            <div class="col-4 meilnimikast">
+     <input class="inputKast" id="sisendnimi" type="text"> <br>
+     <input class="inputKast" id="sisendemail" type="text"> <br>
+     <button onclick="buttonClickKontakt()" class="mt-5 ml-4">Saada</button>
+     </div>
+     <div class="col-8 s6numkastdiv">
+     <input class="inputKast sisends6numkast" id="sisends6num" type="text"> 
+   
+     <script src="./matkaleht.js"></script>
+      </div>   
+</div>
 
-                <h2 class="rida">
-                    MUHE MATKAKLUBI
-                </h2>
-
-                <h1 class="rida">
-                    LIITU KOHE!
-                </h1>
-
-                <h3 class="rida">
-                    HÄSTI ORGANISEERITUD, EESTI AKTIIVSEIM MATKAKLUBI.
-                </h3>
-
-              
-<button class="button-79" role="button">Liitumiseks klõpsa siia!</button>
-
-
-            </div>
-            
-            <div >
-                <img class="piltsection" src="./matkapildid/pexels-photo-6271625.jpeg " alt="">
-            </div>
-        </div>
-
-
-
+</div>
     </section>
 </body>
 
