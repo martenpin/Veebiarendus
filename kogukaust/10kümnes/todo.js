@@ -1,6 +1,7 @@
 function sisestayl() {
     let sisestatudTekst = document.getElementById(tegevus)
-    let valjundElement = valjund
+    let valjundElement = document.getElementById(valjund)
+    let valjundElement = valjundtekst
     let valjund = sisestatudTekst
 }
 
