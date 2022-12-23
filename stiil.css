@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+
+}
+
+
+
+.blokk {
+    margin-right: auto;
+    margin-left: auto;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.blokk img {
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+.row > div {
+    align-items: center;
+}
+
+/*
+siin on eri seadete vaated
+*/
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+
+    .container {
+        flex-direction: row;
+
+
+
+    }
+
+    .blokk {
+        max-width: 45%;
+        min-width: 245px;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    .blokk {
+
+        max-width: 30%;
+    }
+}
