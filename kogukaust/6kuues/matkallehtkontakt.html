@@ -24,9 +24,9 @@
                 <ul class="menyytaust d-flex">
                     <il class="menyyblokk ">
                         <div class="btnymbris">
-                            <button class="btn">
-                                <a class="menyytekst" href="./matkalleht.html">esileht</a>
-                            </button>
+                            
+                                <a class="menyytekst" href="./matkalleht.html"><button class="btn">Esileht</button></a>
+                            
                         </div>
                     </il>
                     <il class="menyyblokk">
@@ -60,15 +60,21 @@
         <div class="kontaktInput">
         <div class="row">
             <div class="col-4 meilnimikast">
+                <label>Nimi:</label> <br>           
      <input class="inputKast" id="sisendnimi" type="text"> <br>
+     <label>Email:</label> <br>
      <input class="inputKast" id="sisendemail" type="text"> <br>
-     <button onclick="buttonClickKontakt()" class="mt-5 ml-4">Saada</button>
+     
      </div>
      <div class="col-8 s6numkastdiv">
-     <input class="inputKast sisends6numkast" id="sisends6num" type="text"> 
-   
+        <label>Teade:</label> <br>
+        <textarea rows="5" cols="80" class="inputKast sisends6numkast" id="sisends6num">
+        </textarea>
+     
+    <button onclick="buttonClickKontakt()" class="mt-5 ml-4">Saada</button>
      <script src="./matkaleht.js"></script>
-      </div>   
+      </div> 
+       
 </div>
 
 </div>

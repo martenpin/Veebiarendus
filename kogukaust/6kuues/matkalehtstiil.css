@@ -7,7 +7,6 @@
 
 }
 
-
 .logo {
     width: 17%;
     border-style: solid;
@@ -170,6 +169,12 @@
 
 @media screen and (max-width: 1300px) {
 
+    .row {
+        height: 50rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     .logo {
         min-width: 17rem;
     }
@@ -188,7 +193,7 @@
 
 
 @media screen and (min-width: 1300px) {
-
+    
     .btn {
         background-color: #242b5c;
         color: #697292;
@@ -202,6 +207,7 @@
         text-transform: uppercase;
         font-family: sans-serif;
         box-shadow: 0 307px 290px 0 #1a1f42;
+        
     }
 
     .logo {
@@ -227,11 +233,34 @@ max-width: 50%;
     width: 20rem;
     height: 20rem;
     padding-left: 0%;
-    padding-right: 0%;
+    padding-right: 0%;  
+     min-width: 20rem;
 }
+
+.s6numkastdiv > label {
+margin-bottom: 0rem;
+}
+
 
 
 .sisends6numkast{
     height: 100%;
     width: 100%;
+ 
 }
+
+.meilnimikast {
+    max-height: 150px;
+    min-width: 190px;
+    margin-bottom: 2rem;
+}
+
+.meilnimikast > label {
+   margin-bottom: 0rem;
+}
+
+
+.row {
+    height: 50rem;
+}
+
