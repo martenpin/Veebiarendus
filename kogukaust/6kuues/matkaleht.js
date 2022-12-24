@@ -1,14 +1,10 @@
-let buttonClickKontankt
-
-function buttonClickKontakt(sisendnimi, sisendmail, sisends6num) {
-    let inputName = document.querySelector(sisendnimi)
-    let inputmail = document.querySelector(sisendmail)
-    let inputmessage = document.querySelector(sisends6num)
-    console.log(inputName);
-    console.log(inputmail);
-    console.log(inputmessage);
-
-    return inputName;
-    return inputmail;
-    return inputmessage;
+let KliendiAndmed = ""
+function buttonClickKontakt() {
+    let InputName = document.getElementById("sisendnimi");
+    let InputMail = document.getElementById("sisendemail");
+    let InputMessage = document.getElementById("sisends6num");
+    let KliendiAndmed = InputName + " " + InputMail + " " + InputMessage;
+    console.log(KliendiAndmed.value);
+    
+ 
 }
