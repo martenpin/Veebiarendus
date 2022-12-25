@@ -1,7 +1,7 @@
 {
-  "name": "10kymnes",
+  "name": "matka-2pp",
   "version": "1.0.0",
-  "description": "hey there!",
+  "description": "Matka-2pp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
