@@ -1,5 +1,5 @@
 let KliendiAndmed = ""
-function buttonClickKontakt() {
+function buttonKontakt() {
     let InputName = document.getElementById("sisendnimi");
     let InputMail = document.getElementById("sisendemail");
     let InputMessage = document.getElementById("sisends6num");
