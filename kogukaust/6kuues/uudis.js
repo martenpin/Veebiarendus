@@ -1,7 +1,10 @@
 // main object
 
-
-
+let uudis = {
+    teema:"pealkiri",
+    pilt:"./matkapildid/Untitled.jpg",
+    kirjeldus:"tekst",
+}
 
 // objects
 
@@ -12,22 +15,25 @@ let uudis1 = {
 }
 
 let uudis2 = {
-    teema: "esimene reis välismaal"
+    teema: "esimene reis välismaal",
     pilt: "./matkapildid/Untitled.jpg",
     kirjeldus: "Meie klubi esimene välismaa matkaüritus, matkaretk Machu Picchusse",
 }
 
 let uudis3 = {
-    teema: "Viimased vabad kohad"
+    teema: "Viimased vabad kohad",
     pilt: "./matkapildid/Untitled.jpg",
     kirjeldus: "Viimased vabad kohad matkaretkele Pääsküla rabas"
 }
 
 let uudids4 = {
-    teema: "Matkauudis"
+    teema: "Matkauudis",
     pilt: "./matkapildid/Untitled.jpg",
     kirjeldus:"Selle matkauudise kirjeldus"
 }
+
+
+
 
 // array
 
@@ -36,7 +42,7 @@ let uudised = [uudis1, uudis2, uudis3, uudids4]
 function uudisteHTML (uudis) {
     return `
     <div class="col-4 card">
-        <img class="card-img-top" src"${uudis.pilt}
+        <img class="card-img-top" src="${uudis.pilt}"
          <div class="card-body">
               <div class="card-title">
                   <h1>
@@ -47,17 +53,24 @@ function uudisteHTML (uudis) {
                 <p>
                 ${uudis.kirjeldus}
                 </p>
+                <a href="#" class="btn btn-primary">UUri lähemalt</a>
             </div>
         </div>
     </div>
     `
 }
 
+
+
+// väljastahtml
+
 function naitaUudiseid() {
     let valjundelement = document.getElementById("valjund")
     let valjundHTML = ''
-    valjundHTML += '<div class="row">'
-    
-    valjundHTML += '</div>'
+    for (let i = 0; i < uudised.length; i++) {
+        valjundHTML += uudisteHTML(uudised[i])
+    }
     valjundelement.innerHTML = valjundHTML
 }
+
+naitaUudiseid()
